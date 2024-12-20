@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="results.css">
+    <title>Qisas-results</title>
+</head>
+<body>
+    <header>        
+        <img src="logo.png" id="nav-logo">
+        <nav class="navbar">
+            <a href="/main/home/home.html">Home</a>
+            <a href="/main/teams/teams.html" >Teams</a>
+            <a href="/main/results/results.html" class="navname">Results</a>                   
+            <a href="/main/contact/contact.html" style="word-spacing: 3px;">About us</a>
+            <button onclick="openPopup()"><a href="#"><img src="/others/search.png" alt="search lens"></a></button>     
+        </nav>
+    </header>
+    <main>
+        <div class="inpo">
+            <div id="popup">
+                <input type="search" id="input" placeholder="Enter your chest-no">
+                <button class="search-btn" onclick="closePopup(),openResult(),showResult()" >Search</button>
+            </div>
+            <a href="#" id="mem-link">
+                <div id="link-popup">
+                    <h1><button id="mem-btn" onclick="closeResult()">No Results found</button></h1>
+                </div>
+            </a>
+        </div>
+        <div class="total">
+        <h1 id="h1">select one</h1>
+        <div class="buttons">
+            <button class="buttons" id="btn" onclick="alarabi()">AL-ARABI</button>
+            <button class="buttons" id="btn" onclick="announcement()">ANNOUNCEMENT</button>
+            <button class="buttons" id="btn" onclick="nerkkuNer()">NERKKUNER</button>
+            <button class="buttons" id="btn" onclick="extemJunctionSpeech()">EXTEM JUNCTION SPEECH</button>
+            <button class="buttons" id="btn" onclick="faceTheBook()">FACE THE BOOK</button>
+            <button class="buttons" id="btn" onclick="gkQuiz()">GENERAL & ISLAMIC QUIZ</button>
+            <button class="buttons" id="btn" onclick="geoGiant()">GEO GIANT</button>
+            <button class="buttons" id="btn" onclick="languageChallenge()">LANGUAGE CHALLENGE URD</button>
+            <button class="buttons" id="btn" onclick="LiveReport()">LIVE REPORTING </button>
+            <button class="buttons" id="btn" onclick="songComposition()">SONG COMBOSITION & RECITATION</button>
+            <button class="buttons" id="btn" onclick="mathTalent()">MATH & IQ TALENT</button>
+            <button class="buttons" id="btn" onclick="mrEnglish()">MR.ENGLISH</button>
+            <button class="buttons" id="btn" onclick="padappatu()">PADAPPATTU</button>
+            <button class="buttons" id="btn" onclick="oruNimisham()">ORU NIMISHAM</button>
+            <button class="buttons" id="btn" onclick="personalInterview()">PERSONAL INTERVIEW</button>
+            <button class="buttons" id="btn" onclick="poemRecitation()">PEOM RECITATION</button>
+            <button class="buttons" id="btn" onclick="qirath()">QIRA'ATH AND TAJVEED</button>
+            <button class="buttons" id="btn" onclick="mappilaPattu()">MAPPILAPPATTU</button>
+            <button class="buttons" id="btn" onclick="reverseQuiz()">REVERSE QUIZ</button>
+            <button class="buttons" id="btn" onclick="scienceMaster()">SCIENCE MASTER</button>
+            <button class="buttons" id="btn" onclick="outOfFocus()">OUT OF FOCUS</button>
+            <button class="buttons" id="btn" onclick="gum()">GUM</button>
+            <button class="buttons" id="btn" onclick="songArb()">SONG ARB</button>
+            <button class="buttons" id="btn" onclick="songEng()">SONG ENG</button>
+            <button class="buttons" id="btn" onclick="songMlm()">SONG MLM</button>
+            <button class="buttons" id="btn" onclick="songUrd()">SONG URD</button>
+            <button class="buttons" id="btn" onclick="speechArb()">SPEECH ARB</button>
+            <button class="buttons" id="btn" onclick="speechEng()">SPEECH ENG</button>
+            <button class="buttons" id="btn" onclick="speechMlm()">SPEECH MAL</button>
+            <button class="buttons" id="btn" onclick="speechUrd()">SPEECH URD</button>
+            <button class="buttons" id="btn" onclick="teaching()">TEACHING</button>
+            <button class="buttons" id="btn" onclick="videoAbsorbing()">VIDIO ABSORBING</button>
+            <button class="buttons" id="btn" onclick="Waaz()">WA'Z</button>
+            <button class="buttons" id="btn" onclick="wordFightArb()">WORD FIGHT ARB</button>
+            <button class="buttons" id="btn" onclick="wordFightEng()">WORD FIGHT ENG</button>
+            <button class="buttons" id="btn" onclick="wordFightUrd()">WORD FIGHT URD</button>
+            <button class="buttons" id="btn" onclick="debate()">DEBATE</button>
+            <button class="buttons" id="btn" onclick="anchoring()">ANCHORING</button>
+            <button class="buttons" id="btn" onclick="groupSong()">GROUP SONG</button>
+            <button class="buttons" id="btn" onclick="mashUp()">MASH UP</button>
+            <button class="buttons" id="btn" onclick="munazara()">MUNAZARA</button>
+            <button class="buttons" id="btn" onclick="pressConference()">PRESS CONFERANCE</button>
+            <button class="buttons" id="btn" onclick="speechAndSong()">SPEECH AND SONG</button>
+            <button class="buttons" id="btn" onclick="tvNewsReading()">TV NEWS RAEDING</button>
+            <button class="buttons" id="btn" onclick="soofiSangetham()">SOOFI SANGEETHAM</button>
+            <button class="buttons" id="btn" onclick="digitalPosterDesigning()">DIGITAL POSTER DESIGN</button>
+            <button class="buttons" id="btn" onclick="editorialMlm()">EDITORIAL MLM</button>
+            <button class="buttons" id="btn" onclick="calligraphy()">CALLIGRAPHY</button>
+            <button class="buttons" id="btn" onclick="essayArb()">ESSAY ARB</button>
+            <button class="buttons" id="btn" onclick="essayEng()">ESSEY ENG</button>
+            <button class="buttons" id="btn" onclick="essayMlm()">ESSEY MLM</button>
+            <button class="buttons" id="btn" onclick="essayUrd()">ESSEY URD</button>
+            <button class="buttons" id="btn" onclick="excelMaster()">EXCEL MASTER</button>
+            <button class="buttons" id="btn" onclick="featureArb()">FEATURE ARB</button>
+            <button class="buttons" id="btn" onclick="featureEng()">FEATURE ENG</button>
+            <button class="buttons" id="btn" onclick="featureMlm()">FEATURE MLM</button>
+            <button class="buttons" id="btn" onclick="featureUrd()">FEATURE URD</button>
+            <button class="buttons" id="btn" onclick="letterHindi()">LETTER WRITING HINDI</button>
+            <button class="buttons" id="btn" onclick="newsArb()">NEWS WRITING ARB</button>
+            <button class="buttons" id="btn" onclick="newsEng()">NEWS WRITING ENG</button>
+            <button class="buttons" id="btn" onclick="newsMlm()">NEWS WRITING MLM</button>
+            <button class="buttons" id="btn" onclick="newsUrd()">NEWS WRITING URD</button>
+            <button class="buttons" id="btn" onclick="pencilDrawing()">PENCIL DRAWING</button>
+            <button class="buttons" id="btn" onclick="photography()">PHOTOGRAPHY</button>
+            <button class="buttons" id="btn" onclick="poemArb()">POEM WRITING ARB</button>
+            <button class="buttons" id="btn" onclick="poemEng()">POEM WRITING ENG</button>
+            <button class="buttons" id="btn" onclick="poemMlm()">POEM WRITING MLM</button>
+            <button class="buttons" id="btn" onclick="poemUrd()">POEM WRITING URD</button>
+            <button class="buttons" id="btn" onclick="posterDesigning()">POSTER DESIGNING</button>
+            <button class="buttons" id="btn" onclick="proofReadingArb()">PROOF READING ARB</button>
+            <button class="buttons" id="btn" onclick="proofReadingEng()">PROOF READING ENG</button>
+            <button class="buttons" id="btn" onclick="proofReadingMlm()">PROOF READING MLM</button>
+            <button class="buttons" id="btn" onclick="proofReadingUrd()">PROOF READING URD</button>
+            <button class="buttons" id="btn" onclick="sentenceTranslation()">SENTECE TRANSLATION</button>
+            <button class="buttons" id="btn" onclick="shortStoryArb()">SHORT STORY ARB</button>
+            <button class="buttons" id="btn" onclick="shortStoryEng()">SHORT STORY ENG</button>
+            <button class="buttons" id="btn" onclick="shortStoryMlm()">SHORT STORY MLM</button>
+            <button class="buttons" id="btn" onclick="shortStoryUrd()">SHORT STORY URD</button>
+            <button class="buttons" id="btn" onclick="sloganMaking()">SLOGAN MAKING</button>
+            <button class="buttons" id="btn" onclick="traveloge()">TRAVELOGE</button>
+            <button class="buttons" id="btn" onclick="trollMaking()">TROLL MAKING</button>
+            <button class="buttons" id="btn" onclick="typingArb()">TYPING ARB</button>
+            <button class="buttons" id="btn" onclick="typingEng()">TYPING ENG</button>
+            <button class="buttons" id="btn" onclick="typingmlm()">TYPING MLM</button>
+            <button class="buttons" id="btn" onclick="waterpainting()">WATER PAINTING</button>
+            <button class="buttons" id="btn" onclick="magazin()">INSTANT MAGAZIN</button>
+            <button class="buttons" id="btn" onclick="newspaper()">INSTANT NEWSPAPER</button>
+            <button class="buttons" id="btn" onclick="statusvideo()">STATUS VIDEO MAKING</button>
+            <button class="buttons" id="btn" onclick="reelmaking()">REEL MAKING</button>
+            <button class="buttons" id="btn" onclick="snapshot()">SNAP SHOT</button>
+        </div>
+        </div>
+    </main>
+</body>
+<script src="results.js"></script>
+<script src="/others/input/search.js"></script>
+</html>

@@ -1,0 +1,311 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: #24252a;
+    
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+    background: #24252a;
+    border-bottom:  5px solid /*#00ff2f*/ #00ff2f;
+}
+
+#nav-logo{
+    width: 100px;
+    margin-left: 5%;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#nav-logo:hover{
+    width: 120px;
+}
+
+.navbar{
+    margin-right: 5%;
+    word-spacing: 20px;
+    cursor: default;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.navbar a{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: all 0.3s;
+}
+
+.navbar button{
+    background: #00ff2f;
+    padding: 7px 13px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    background: #12d200;
+}
+
+.navbar button a:hover{
+    color: #ffffff;
+}
+
+.navbar a:hover{
+    color: #00ff2f;
+}
+
+.navbar .navname{
+    border-bottom: 3px solid #00ff2f;
+    padding-bottom: 5px;
+}
+
+.navbar .navname:hover{
+    border-bottom: 3px solid #00ff2f;
+    padding-bottom: 7px;
+}
+
+#popup{
+    display: flex;
+    background: #fff;
+    height: 200px;
+    width: 25%;
+    border-radius: 30px;
+    position: fixed;
+    transform: translateZ(-100px);
+    margin-top: 50px;
+    left: 100%;
+    transition: all 0.5s;
+}
+
+#popup input{
+    width: 60%;
+    height: 50px;
+    margin-top: 70px;
+    font-size: 20px;
+    border: none;
+    padding-left: 10px;
+    background: #cdcdcd;
+    border-radius: 50px;
+    margin-left: 10%;
+    font-family: sans-serif;
+    outline: none;
+}
+
+#popup button{
+    width: 25%;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 70px;
+    border: none;
+    padding-left: 10px;
+    background: #0ef;
+    border-radius: 50px;
+    transform: translateX(-90px);
+    transition: all 0.3s;
+}
+
+#popup button:hover{
+    background: #00adb9;
+}
+
+
+#link-popup{
+    display: flex;
+    background: #fff;
+    height: 130px;
+    width: 25%;
+    border-radius: 30px;
+    position: fixed;
+    margin-top: 30px;
+    left: 100%;
+    transition: left 0.5s , background 0.3s , color 1s;
+}
+
+#link-popup button{
+    color: #00b3ff;
+    font-size: 30px;
+    font-family: maiandra gd;
+    border: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-left: 80px;
+}
+
+
+main{
+    padding-top: 100px;
+}
+
+div.jeffa-box{
+    display: flex;
+    padding-left: 10%;
+    background: #24252a;
+    height: 250px;
+    position: fixed;
+    width: 7%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* .zion{
+    background-color: #00ff2f;
+    width: 500px;   
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+
+.zion:hover{
+    transform: scale(1.1); 
+}
+
+.zion img{
+    width: 500px;   
+} */
+
+.jeffa-box a{
+    text-decoration: none;
+    width: 100%;
+}
+
+.jeffa-box h1{
+    color: #ffffff;
+    font-size: 200px;   
+    margin-left: 200px;
+    font-family: calibri; 
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.jeffa-box h1:hover{
+    color: #00ff2f;
+    transform: scale(1.1); 
+}
+
+.heads{
+    position: fixed;
+    width: 750px;
+    height: 200px;
+    margin-left: 50%;
+    margin-top: 60px;
+    border-radius: 30px;
+    background: #ffff;
+    box-shadow: 10px 10px 50px #24252a;
+    transition: transform 0.3s;
+}
+
+.heads:hover{
+    transform: scale(1.1);
+}
+
+.heads h3{
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    font-family: maiandra gd ;
+    line-height: 50px;
+}
+
+.heads h3 span{
+    color: #00ff2f;
+    text-shadow: 1px 1px 2px #24252a;
+}
+
+.members-container{
+    width: 750px;
+    margin-left: 50%;
+    margin-top: 300px;
+    border-radius: 30px;
+    background: #ffff;
+    /* border: 5px solid #00ff2f; */
+}
+
+.members-container a{
+    display: block;
+}
+
+.members button{
+    color: #000;
+    background: #fff;
+    border: none;
+    font-size: 30px;
+    /* border-bottom: 5px solid #00ff2f; */
+    width: 100%;
+    text-align: left;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: maiandra gd;
+    /* font-family: maiandra gd; */
+    transition: transform 0.3s, border-radius 0.0000000000000000000000000000001s, height 0.3s, box-shadow 0.5s;
+}
+.members button:hover{
+    transform: scale(1.1);
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #24252a;
+}
+
+.members button span{
+    color: #00ff11;
+    text-shadow: 1px 1px 2px #24252a;
+}
+
+.points{
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    margin-left: 17%;
+    margin-top: 400px;
+    border-radius: 30px;
+    background: #ffff;
+    box-shadow: 10px 10px 50px #24252a;
+    transition: transform 0.3s;
+    display: flex;
+}
+
+.points h3{
+    font-size: 100px;
+    height: 90px;
+    width: 110px;
+    margin-left: 50px;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 20px;
+    border-radius: 100px;
+    background-color: #00ff2f;
+    border: 5px solid #00ff2f;
+}
+
+.points h4{
+    font-size: 100px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 20px;
+    text-align: center;
+    align-self: center;
+    font-family: maiandra gd;
+    line-height: 30px;
+}
+
+.points h4 span{
+    font-size: 30px;
+}
+
+.points:hover{
+    transform: scale(1.1);
+}

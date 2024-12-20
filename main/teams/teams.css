@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: #24252a;
+    
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+    background: #24252a;
+    border-bottom: 5px solid #0ef;
+}
+
+#nav-logo{
+    width: 100px;
+    margin-left: 5%;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#nav-logo:hover{
+    width: 120px;
+}
+
+.navbar{
+    margin-right: 5%;
+    word-spacing: 20px;
+    cursor: default;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.navbar a{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: all 0.3s;
+}
+
+.navbar button{
+    background: #0ef;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    background: #00a8d2;
+}
+
+.navbar button a:hover{
+    color: #ffffff;
+}
+
+.navbar a:hover{
+    color: #0ef;
+}
+
+.navbar .navname{
+    border-bottom: 3px solid #0ef;
+    padding-bottom: 5px;
+}
+
+.navbar .navname:hover{
+    border-bottom: 3px solid #0ef;
+    padding-bottom: 7px;
+}
+
+#popup{
+    display: flex;
+    background: #fff;
+    height: 200px;
+    width: 25%;
+    border-radius: 30px;
+    position: fixed;
+    transform: translateZ(-100px);
+    margin-top: 50px;
+    left: 100%;
+    transition: all 0.5s;
+}
+
+#popup input{
+    width: 60%;
+    height: 50px;
+    margin-top: 70px;
+    font-size: 20px;
+    border: none;
+    padding-left: 10px;
+    background: #cdcdcd;
+    border-radius: 50px;
+    margin-left: 10%;
+    font-family: sans-serif;
+    outline: none;
+}
+
+#popup button{
+    width: 25%;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 70px;
+    border: none;
+    padding-left: 10px;
+    background: #0ef;
+    border-radius: 50px;
+    transform: translateX(-90px);
+    transition: all 0.3s;
+}
+
+#popup button:hover{
+    background: #00adb9;
+}
+
+
+#link-popup{
+    display: flex;
+    background: #fff;
+    height: 130px;
+    width: 25%;
+    border-radius: 30px;
+    position: fixed;
+    margin-top: 30px;
+    left: 100%;
+    transition: left 0.5s , background 0.3s , color 1s;
+}
+
+#link-popup button{
+    color: #00b3ff;
+    font-size: 30px;
+    font-family: maiandra gd;
+    border: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-left: 80px;
+}
+
+
+main{
+    padding-top: 150px;
+    margin-left: 15%;
+}
+
+.teams a{
+    display: block;
+    text-align: center;
+}
+
+div.herod-box{
+    display: flex;
+}
+
+.herod{
+    background-color:#007bff ;
+    width: 500px;
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+
+.herod:hover{
+    transform: scale(1.1); 
+}
+
+.herod img{
+    width: 500px;   
+}
+
+.herod-box a{
+    text-decoration: none;
+}
+
+.herod-box h1{
+    color: #ffffff;
+    font-size: 200px;   
+    margin-left: 200px;
+    font-family: calibri;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.herod-box h1:hover{
+    color: #007bff;
+    transform: scale(1.1); 
+}
+
+div.jeffa-box{
+    display: flex;
+    margin-top: 40px;
+}
+
+.jeffa{
+    background-color:#00ff2f;
+    width: 500px;
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+
+.jeffa:hover{
+    transform: scale(1.2); 
+}
+
+.jeffa img{
+    width: 500px;   
+}
+
+.jeffa-box a{
+    text-decoration: none;
+}
+
+.jeffa-box h1{
+    color: #ffffff;
+    font-size: 200px;   
+    margin-left: 200px;
+    font-family: calibri; 
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.jeffa-box h1:hover{
+    color: #00ff2f;
+    transform: scale(1.1); 
+}
+
+div.zion-box{
+    display: flex;
+    margin-top: 40px;
+}
+
+.zion{
+    background-color: #ffff00;
+    width: 500px;   
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+
+.zion:hover{
+    transform: scale(1.2); 
+}
+
+.zion img{
+    width: 500px;   
+}
+
+.zion-box a{
+    text-decoration: none;
+}
+
+.zion-box h1{
+    color: #ffffff;
+    font-size: 200px;   
+    margin-left: 200px;
+    font-family: calibri; 
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.zion-box h1:hover{
+    color: #ffff00;
+    transform: scale(1.1); 
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zion.css">
+    <title>Qisas</title>
+</head>
+<body>
+    <header>
+        <!--<img src="#" id="logo">-->
+        <img src="logo.png" id="nav-logo">
+        <nav class="navbar">
+            <a href="/main/home/home.html">Home</a>
+            <a href="/main/teams/teams.html" class="navname">Teams</a>
+            <a href="/main/results/results.html">Results</a>               
+            <a href="/main/contact/contact.html" style="word-spacing: 3px;">About us</a>
+            <button onclick="openPopup()"><a href="#"><img src="/others/search.png" alt="search lens"></a></button>     
+        </nav>
+    </header>
+    <main>
+        <div class="inpo">
+            <div id="popup">
+                <input type="search" id="input" placeholder="Enter your chest-no">
+                <button class="search-btn" onclick="closePopup(),openResult(),showResult()" >Search</button>
+            </div>
+            <a href="#" id="mem-link">
+                <div id="link-popup">
+                    <h1><button id="mem-btn" onclick="closeResult()">No Results found</button></h1>
+                </div>
+            </a>
+        </div>
+        <div class="zion-box">
+            <!-- <a href="#" class="zion"><img src="logo.png"></a> -->
+            <a href="#"><h1>ZION</h1></a>
+        </div>
+        <div class="heads">
+            <h3><span>Manager</span>: Muhammed Ashmil K <br><span>Leader</span>: Muhammed Faheem VM <br><span>Ass-Leader</span> : Muhammed Jalal PT</h3>
+        </div>
+        <div class="points">
+            <h3>2</h3>
+            <h4>323 <span>points</span></h4>
+        </div>
+        <div class="members-container">
+            <a href="/members/faheem/faheem.html" class="members"><button><span>301</span> - MUHAMMED FAHEEM VM</button></a>
+            <a href="/members/jalal/jalal.html" class="members"><button><span>302</span> - MUHAMMED JALAL PT</button></a>
+            <a href="/members/ubaidulla/ubaidulla.html" class="members"><button><span>303</span> - UBAIDULLAH V</button></a>
+            <a href="/members/shahan/shahan.html" class="members"><button><span>304</span> - MUHAMMED SHAHAN K</button></a>
+            <a href="/members/safwan/safwan.html" class="members"><button><span>305</span> - MUHAMMED SAFWAN KK</button></a>
+            <a href="/members/anshif/anshif.html" class="members"><button><span>306</span> - MUHAMMED ANSHIF PP</button></a>
+            <a href="/members/ashmil/ashmil.html" class="members"><button><span>307</span> - MUHAMMED ASHMIL K</button></a>
+            <a href="/members/shameem/shameem.html" class="members"><button><span>308</span> - MUHAMMED SHAMEEM M</button></a>
+            <a href="/members/juman/juman.html" class="members"><button><span>309</span> - JUMAN I</button></a>
+            <a href="/members/sahal/sahal.html" class="members"><button><span>310</span> - SAYYID SAHAL SV</button></a>
+            <a href="/members/nihad/nihad.html" class="members"><button><span>311</span> - MUHAMMED NIHAD K</button></a>
+            <a href="/members/jesil/jesil.html" class="members"><button><span>312</span> - JESIL INTHISHAM</button></a>
+            <a href="/members/shamal/shamal.html" class="members"><button><span>313</span> - MUHAMMED SHAMAL T</button></a>
+            <a href="/members/raif/raif.html" class="members"><button><span>314</span> - MUHAMMED RAIF TP</button></a>
+            <a href="/members/hashim/hashim.html" class="members"><button><span>315</span> - HASHIM HUSAIN P</button></a>
+            <a href="/members/bishr/bishr.html" class="members"><button><span>316</span> - MUHAMMED BISHR KV</button></a>
+            <a href="/members/shamil t/shamil t.html" class="members"><button><span>317</span> - MUHAMMED SHAMIL T</button></a>
+            <a href="/members/afnan/afnan.html" class="members"><button><span>318</span> - MUHAMMED AFNAN MP</button></a>
+        </div>
+    </main>
+</body>
+<script src="/others/input/search.js"></script>
+</html>

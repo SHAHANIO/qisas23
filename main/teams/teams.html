@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teams.css">
+    <title>Qisas-teams</title>
+</head>
+<body>
+    <header>        
+        <img src="logo.png" id="nav-logo">
+        <nav class="navbar">
+            <a href="/main/home/home.html">Home</a>
+            <a href="/main/teams/teams.html" class="navname">Teams</a>
+            <a href="/main/results/results.html">Results</a>                   
+            <a href="/main/contact/contact.html" style="word-spacing: 3px;">About us</a>
+            <button onclick="openPopup()"><a href="#"><img src="/others/search.png" alt="search lens"></a></button>     
+        </nav>
+    </header>
+    <main>        
+        <div class="inpo">
+            <div id="popup">
+                <input type="search" id="input" placeholder="Enter your chest-no">
+                <button class="search-btn" onclick="closePopup(),openResult(),showResult()" >Search</button>
+            </div>
+            <a href="#" id="mem-link">
+                <div id="link-popup">
+                    <h1><button id="mem-btn" onclick="closeResult()">No Results found</button></h1>
+                </div>
+            </a>
+        </div>
+       <div class="teams">
+            <div class="herod-box">
+                <a href="/main/teams/herod/herod.html" class="herod"><!-- <img src="logo.png"> --></a>
+                <a href="/main/teams/herod/herod.html"><h1>HEROD</h1></a>
+            </div>
+            <div class="jeffa-box">
+                <a href="/main/teams/jeffa/jeffa.html" class="jeffa"><!-- <img src="logo.png"> --></a>
+                <a href="/main/teams/jeffa/jeffa.html"><h1>JEFFA</h1></a>
+            </div>
+            <div class="zion-box">
+                <a href="/main/teams/zion/zion.html" class="zion"><!-- <img src="logo.png"> --></a>
+                <a href="/main/teams/zion/zion.html"><h1>ZION</h1></a>
+            </div>
+       </div>
+    </main>
+</body>
+<script src="/others/input/search.js"></script>
+</html>
