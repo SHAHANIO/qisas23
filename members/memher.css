@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: #24252a;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+    background: #24252a;
+    border-bottom: 5px solid #007bff;
+}
+
+#nav-logo{
+    width: 100px;
+    margin-left: 5%;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#nav-logo:hover{
+    width: 120px;
+}
+
+.navbar{
+    margin-right: 5%;
+    word-spacing: 20px;
+    cursor: default;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.navbar a{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: all 0.3s;
+}
+
+.navbar button{
+    background: #007bff;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    background: #00a4b0;
+}
+
+.navbar button a:hover{
+    color: #ffffff;
+}
+
+.navbar a:hover{
+    color: #007bff;
+}
+
+.navbar .navname{
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.navbar .navname:hover{
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 7px;
+}
+
+main{
+    padding-top: 90px;
+    display: flex;
+    height: 28.5cm;
+}
+
+.result{
+    margin-left:33%;
+    margin-top: 50px; 
+}
+
+.non-stage-heading{
+    margin-top: 50px;
+    color: #007bff;
+    font-size: 50px;
+    text-align: center;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: cursive;
+}
+
+.non-stage{
+    display: flex;
+}
+
+.non-stage{  
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 1000px;
+    height: fit-content;
+    /* animation: result-anime;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+
+.programmes{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.programmes h2{
+    font-size: 30px;
+    padding: 10px;
+    font-family: maiandra gd;
+    padding-left: 50px;
+}
+
+.t11{
+    border-top-left-radius: 20px;
+}
+
+.t22{
+    border-bottom-left-radius: 20px;
+}
+
+.t1{
+    background: #e0e0e0;
+}
+
+.t2{
+    background: #ffffff;
+}
+
+.ranks{
+    width: 25%;
+    text-align: center;
+    height: 100%;
+}
+
+.ranks h2{
+    font-size: 30px;
+    padding: 10px;
+    font-family: maiandra gd;
+    background: #ffffff;
+}
+/* 
+.r1{
+    background: #e0e0e0;
+}
+
+.r2{
+    background: #ffffff;
+} */
+
+.pro-point{
+    width: 25%;
+    text-align: center;
+}
+
+.pro-point h2{
+    font-size: 30px;
+    padding: 10px;
+    font-family: maiandra gd;
+}
+
+.p11{
+    border-top-right-radius: 20px;
+}
+
+.p22{
+    border-bottom-right-radius: 20px;
+}
+
+.p1{
+    background: #e0e0e0;
+}
+
+.p2{
+    background: #ffffff;
+}
+
+.stage-heading{
+    color: #007bff;
+    font-size: 50px;
+    text-align: center;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: cursive;
+}
+
+.stage{
+    display: flex;
+}
+
+.user-bar{
+    background: #2a2b2f;
+    width: 25%;
+    height: 90%;
+    text-align: center;
+    position: fixed;
+}
+
+.user-bar h2{
+    font-size: 30px;
+    font-family: calibri;
+    display: block;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.user-bar img{
+    width: 95%;
+    margin-top: 10px;
+}
+
+h2.name{
+    color: #ffffff;
+    font-family: maiandra gd;
+    font-size: 40px;
+    width: 87%;
+    background: #24252a;
+    margin-left: 2%;
+    margin-top: 30px;
+}
+
+h2.chest-no{
+    color: #007bff;
+    font-family: maiandra gd;
+    font-size: 40px;
+}
+
+h2.total{
+    width: 87%;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 20px;
+    background: #24252a;
+    margin-left: 2%;
+}
+
+h2.points{
+    width: 87%;
+    color: #ffffff;
+    font-family: maiandra gd;
+    font-size: 70px;
+    background: #24252a;
+    margin-left: 2%;
+    transform: translateY(-25px);
+}
+
+h2.points span{
+    color: #007bff;
+}
+
